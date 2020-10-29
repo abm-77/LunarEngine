@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{eff9881a-e859-4071-ad91-2dfd5209fc4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Entities\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Entities\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\MainMenuScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\basic_phong.fs" />
+    <None Include="Resources\Shaders\basic_phong.vs" />
+    <None Include="Resources\Shaders\basic_shader.fs" />
+    <None Include="Resources\Shaders\basic_shader.vs" />
+    <None Include="Resources\Shaders\basic_text.fs" />
+    <None Include="Resources\Shaders\basic_text.vs" />
+    <None Include="Resources\Shaders\basic_texture.fs" />
+    <None Include="Resources\Shaders\basic_texture.vs" />
+    <None Include="Resources\Shaders\default_mesh.fs" />
+    <None Include="Resources\Shaders\default_mesh.vs" />
+    <None Include="Resources\Shaders\default_shader.fs" />
+    <None Include="Resources\Shaders\default_shader.vs" />
+    <None Include="Resources\Shaders\sprite_unlit.fs" />
+    <None Include="Resources\Shaders\sprite_unlit.vs" />
+    <None Include="Resources\Shaders\basic_light_source.fs" />
+    <None Include="Resources\Shaders\basic_light_source.vs" />
+    <None Include="Resources\Shaders\basic_lit_object.fs" />
+    <None Include="Resources\Shaders\basic_lit_object.vs" />
+    <None Include="Resources\Shaders\basic_mvp.fs" />
+    <None Include="Resources\Shaders\basic_mvp.vs" />
+  </ItemGroup>
+</Project>
